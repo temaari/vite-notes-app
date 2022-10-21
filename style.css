@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    min-height: 500px;
+    padding: 1rem;
+}
+
+.notes-view {
+    max-width: 40em;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 5rem;
+}
+
+button,
+input {
+    height: 4em;
+    padding: 0 1rem;
+    border-color: lightgrey;
+}
+
+input {
+    width: 35em;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.controls {
+    display: flex;
+    column-gap: 1rem;
+}
+
+button {
+    width: 10em;
+}
+
+#notes-display p {
+    border: 1px solid lightgrey;
+    padding: 1rem;
+    margin-top: 1rem;
+    line-height: 3ch;
+    overflow-wrap: anywhere;
+}
